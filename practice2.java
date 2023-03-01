@@ -1,11 +1,17 @@
 import java.util.Scanner;
 public class practice2 {
     public static void main(String  args[]){
-        String country;
-        System.out.println("Enter your country name");
+        String name;
+        int age;
+        
+        
         Scanner me=new Scanner(System.in);
-        country=me.nextLine();
-        System.out.println("Nmae of my country is: "+country);
+        System.out.println("Enter your country name");
+        name=me.nextLine();
+        System.out.println("Enter your age");
+        age=me.nextInt
+        System.out.println("My name is "+name);
+        System.out.println("\nAge is "+age);
     }
     
 }
